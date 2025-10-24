@@ -78,3 +78,20 @@ Os dados e simulações utilizados são baseados nas informações públicas do 
 
 ## 🧠 Estrutura do Projeto
 
+Segura-CE/
+│
+├── web/ # Versão web (React + Vite)
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── data/
+│ └── package.json
+│
+├── mobile/ # Versão mobile (Expo + React Native)
+│ ├── components/
+│ ├── screens/
+│ └── app.json
+│
+├── assets/ # Ícones, mapas e estilos compartilhados
+├── README.md
+└── LICENSE
